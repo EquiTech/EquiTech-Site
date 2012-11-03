@@ -1,0 +1,114 @@
+body {font-family:Verdana, Arial, sans-serif;
+      background-color: #3d402f;
+}
+h2{color:#3d402f
+  }
+.wrapper {
+		margin:0 auto;
+		width: 80%;
+		min-width: 50.00em;		
+		background-color: #075637;
+	}
+.logo { 	float:left;
+		width:12.500em;
+		height:12.500em;
+		background-image: url(cod4-multiplayer.jpeg); 
+		background-repeat: no-repeat;
+		background-size:12.500em 12.500em;
+		margin:0 auto;
+	}	
+
+header {
+		font-size: 150%; 
+		padding: 10px 10px 10px 155px;
+		background-color: #0b3726;
+		margin:0 auto;
+		}
+header h1 {   margin-bottom: 0;} 
+header h2 { 	margin: 0; 
+            padding-left:15.0em;
+            font-size: .80em; 
+            font-style: italic;
+            text-align: left; 
+            color: #000000; }		
+		
+nav {
+     clear:both;
+     float:left;
+	 width:12.500em;
+	 letter-spacing:0.1em;
+	 font-weight: bold;
+	}
+nav ul { list-style-type: none; 
+       margin: 0;
+	   padding: 0;
+
+}	
+nav a { text-decoration: none; 
+       display: block;
+	   padding: 1.250px;
+       background-color: #075637;				
+	   border-bottom: 0.05em solid #052a19;
+}
+nav a:link { color: #869dc7; }
+nav a:visited { color: #0b3726; }
+nav a:hover { background-color: #0b3726;
+              color: #660033; }	
+dd { margin: 0; padding: 0 0 1.0em 0; }
+dt { font-weight:bold; color: #000033;}
+
+		
+.content {
+		 background-color: #81a599;
+         color: #000000;
+		 padding: 10px 20px;
+	     overflow: auto;		
+		}
+#floatright { margin: 10px;
+             float: right; }
+#floatleft{ margin: 5px;
+             float: left; }			 
+aside { float: right; 
+      background-color: #eaeaea;
+	  width: 120px; 
+	  padding: 5px; 
+	  margin-left: 10px; 
+	  font-size: 80%; 
+	  -webkit-box-shadow: 5px 5px 5px #828282;
+      -moz-box-shadow: 5px 5px 5px #828282;
+      box-shadow: 5px 5px 5px #828282;
+}
+article header { background-color: #81a599;
+            background-image: none;
+		    padding: 0; 
+			font-size: 100%;
+			color: #3d402f;
+		}
+article #small{font-size: 80%;
+			}		
+footer {font-size:70%;
+         padding: 0.625em;
+		 background-color: #0b3726;
+		 clear: both;
+		 
+}
+footer p{color: #3d402f;
+	   }   		
+footer ul {
+	  list-style-type: square; 
+       margin: .5em;
+	   padding: .5em;
+	   float:left;
+	   }
+footer li.nodec {list-style-type: none; 
+			  color: #636658;
+			  padding-bottom: 0.625em;
+			  
+	   }
+footer a:link { color: #869dc7; }
+footer a:visited { color: #000000; }
+footer a:hover { background-color: #0b3726;
+              color: #660033; }	
+#footerCenter{ clear: both;
+		color:#636658;
+				text-align:center;}			  
