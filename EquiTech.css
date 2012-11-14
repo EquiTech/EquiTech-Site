@@ -67,7 +67,8 @@ dt { font-weight:bold; color: #000033;}
 #floatright { margin: 10px;
              float: right; }
 #floatleft{ margin: 5px;
-             float: left; }			 
+             float: left; }	
+#clear{clear: both;}			 
 aside { float: right; 
       background-color: #eaeaea;
 	  width: 120px; 
@@ -85,7 +86,58 @@ article header { background-color: #81a599;
 			color: #3d402f;
 		}
 article #small{font-size: 80%;
-			}		
+			}	
+#gallery {position: relative;
+		 }
+#gallery  ul {width: 300px;
+			list-style-type:none;
+			display: inline;
+			}
+#gallery  li {display: inline;
+			  padding:10px;
+			  float: left;
+			  }
+#gallery img {border-style:none;
+			 }
+#gallery a   {text-decoration:none;			
+			  color: #333;
+			  font-style: italic;
+			  }
+#gallery span  {display:none;				
+				}
+#gallery a:hover span{display:inline;
+				position: absolute;
+				top: 10px;
+				text-align: center;	
+				}				
+.figure { float: right; 
+			width: 260px; 
+			margin: 20px; 
+			padding: 5px; 
+			background-color: #FFF; 
+			border: 1px solid #CCC; 
+			text-align: center; 
+			font-size: 0.80em;
+			-webkit-transform: rotate(3deg); 
+			-moz-transform: rotate(3deg); 
+			-o-transform: rotate(3deg); 
+			-ms-transform: rotate(3deg);
+
+			-webkit-box-shadow: 5px 5px 5px #828282; 
+			-moz-box-shadow: 5px 5px 5px #828282;
+			box-shadow: 5px 5px 5px #828282; 
+
+		}
+.figure:hover {	-webkit-transform: rotate(0deg);
+			-moz-transform: rotate(0deg); 
+			-o-transform: rotate(0deg); 
+			transform: rotate(0deg);
+			-webkit-transform: -webkit-transform .5s linear;
+			-moz-transform:-moz-transform .5s linear;
+			-o-transform:-o-transform .5s linear;
+			z-index:1;
+			  }
+			
 footer {font-size:70%;
          padding: 0.625em;
 		 background-color: #0b3726;
