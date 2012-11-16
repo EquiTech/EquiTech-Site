@@ -68,7 +68,7 @@ dt { font-weight:bold; color: #000033;}
              float: right; }
 #floatleft{ margin: 5px;
              float: left; }	
-#clear{clear: both;}			 
+.clear{clear: both;}			 
 aside { float: right; 
       background-color: #eaeaea;
 	  width: 120px; 
@@ -85,27 +85,27 @@ article header { background-color: #81a599;
 			font-size: 100%;
 			color: #3d402f;
 		}
-article #small{font-size: 80%;
+article .small{font-size: 80%;
 			}	
-#gallery {position: relative;
+.gallery {position: relative;
 		 }
-#gallery  ul {width: 300px;
+.gallery  ul {width: 300px;
 			list-style-type:none;
 			display: inline;
 			}
-#gallery  li {display: inline;
+.gallery  li {display: inline;
 			  padding:10px;
 			  float: left;
 			  }
-#gallery img {border-style:none;
+.gallery img {border-style:none;
 			 }
-#gallery a   {text-decoration:none;			
+.gallery a   {text-decoration:none;			
 			  color: #333;
 			  font-style: italic;
 			  }
-#gallery span  {display:none;				
+.gallery span  {display:none;				
 				}
-#gallery a:hover span{display:inline;
+.gallery a:hover span{display:inline;
 				position: absolute;
 				top: 10px;
 				text-align: center;	
@@ -137,7 +137,10 @@ article #small{font-size: 80%;
 			-o-transform:-o-transform .5s linear;
 			z-index:1;
 			  }
-			
+.video{border:0;
+	   width:560px;
+	   height:315px;
+	  }			
 footer {font-size:70%;
          padding: 0.625em;
 		 background-color: #0b3726;
