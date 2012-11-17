@@ -1,0 +1,48 @@
+
+/* styles for google search */
+.gsc-control-cse {
+  background-color: #81a599;
+  border: 0em;
+}
+
+/* Inner wrapper for a result */
+.cse .gsc-webResult.gsc-result,
+.gsc-webResult.gsc-result,
+.gsc-imageResult-column,
+.gsc-imageResult-classic {
+  padding: .25em;
+  border: 1px solid;
+  border-color: #636658;
+  margin-bottom: 0em;
+  background-color: #81a599;
+}
+/* Result hover event styling */
+.cse .gsc-webResult.gsc-result:hover,
+.gsc-webResult.gsc-result:hover,
+.gsc-webResult.gsc-result.gsc-promotion:hover,
+.gsc-results .gsc-imageResult-classic:hover,
+.gsc-results .gsc-imageResult-column:hover {
+  border: 1px solid;
+  border-color: #636658;
+}
+
+/* right above result info */
+.gsc-above-wrapper-area{border-bottom-width:0em !important;}
+
+/*result info */
+.gsc-result-info{}
+
+.gsc-wrapper{background-color:#81a599;}
+
+/* Search result page numbers */
+.gsc-cursor-box{background-color:#81a599}
+.gsc-cursor-page{color:#636658 !important;}
+.gsc-cursor-page:hover{color:#660033 !important;}
+.gsc-cursor-current-page{color:#333333 !important;}
+
+.gsc-expansionArea{background-color: #81a599;}
+.gsc-adBlock {display:none !important; overflow: hidden! Important;}
+.gsc-adBlockVertical{display:none !important; overflow: hidden! Important;}
+/* Removes Google Branding from search results
+.gcsc-branding{display:none;}
+*/
