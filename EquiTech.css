@@ -54,6 +54,9 @@ nav a:link { color: #869dc7; }
 nav a:visited { color: #0b3726; }
 nav a:hover { background-color: #0b3726;
               color: #660033; }	
+nav a:active {
+background-color:#76EEC6; } 
+
 dd { margin: 0; padding: 0 0 1.0em 0; }
 dt { font-weight:bold; color: #000033;}
 
