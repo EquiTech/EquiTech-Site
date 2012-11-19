@@ -6,7 +6,7 @@ h2{color:#3d402f
 .wrapper {
 		margin:0 auto;
 		width: 80%;
-		min-width: 50.00em;		
+		min-width: 50.00em;	
 		background-color: #075637;
 	}
 .logo { 	float:left;
@@ -98,33 +98,67 @@ article header { background-color: #81a599;
 		}
 article .small{font-size: 80%;
 			}	
-.gallery {position: relative;
+.gallery {position: relative;		  			  
 		 }
 .gallery  ul {width: 300px;
 			list-style-type:none;
-			display: inline;
+			display: block;
+			float: left;	
+			padding:20;
 			}
-.gallery  li {display: inline;
-			  padding:10px;
-			  float: left;
+.gallery  li {	  padding:5px;
+
 			  }
 .gallery img {border-style:none;
+
 			 }
 .gallery a   {text-decoration:none;			
 			  color: #333;
 			  font-style: italic;
+
 			  }
-.gallery span  {display:none;				
-				}
-.gallery a:hover span{display:inline;
-				position: absolute;
+.gallery span  {display:none;
+
+			 }
+			
+.gallery a:hover span{display: inline;
+                position: absolute;
 				top: 10px;
-				text-align: center;	
-				}				
-.figure { float: right; 
+				text-align: center;
+				}
+				
+.gallery2{position: relative;		  			  
+		 }
+.gallery2  ul {width: 300px;
+			list-style-type:none;
+			display: block;
+			  float: left;
+			padding:20;			  
+			}
+.gallery2  li {  padding:5px;
+			  }
+.gallery2 img {border-style:none;
+
+			 }
+.gallery2 a   {text-decoration:none;			
+			  color: #333;
+			  font-style: italic;
+
+			  }
+.gallery2 span  {display:none;
+			  
+			 }
+			
+.gallery2 a:hover span{display: inline;
+                position: absolute;
+				top: 10px;
+				text-align: center;
+				left:-150%;
+				}					
+.figure { 
 			width: 260px; 
-			margin: 20px; 
-			padding: 5px; 
+			margin: 30px; 
+			padding: 10px; 
 			background-color: #FFF; 
 			border: 1px solid #CCC; 
 			text-align: center; 
@@ -143,11 +177,17 @@ article .small{font-size: 80%;
 			-moz-transform: rotate(0deg); 
 			-o-transform: rotate(0deg); 
 			transform: rotate(0deg);
-			-webkit-transform: -webkit-transform .5s linear;
-			-moz-transform:-moz-transform .5s linear;
-			-o-transform:-o-transform .5s linear;
+			-webkit-transform:.5s linear;
+			-moz-transform:.5s linear;
+			-o-transform:.5s linear;
 			z-index:1;
 			  }
+.thumbnail{width:200px;
+           height:100px;
+		  }
+.fullmedia{width:400px;
+	       height:300px;
+          }			  
 .video{border:0;
 	   width:560px;
 	   height:315px;
