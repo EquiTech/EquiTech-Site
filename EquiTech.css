@@ -217,4 +217,43 @@ footer a:hover { background-color: #0b3726;
               color: #660033; }	
 #footerCenter{ clear: both;
 		color:#636658;
-				text-align:center;}			  
+				text-align:center;}		
+				
+				
+
+
+table { margin:auto; border:1px solid #5c743d; width:520px; padding:10px;}
+
+caption { font-size:1em; font-weight:bold; font-family: Verdana, sans-serif; color:#0000ff; }
+
+
+
+tbody { font-family:Arial, sans-serif; font-size:.90em;}
+
+
+td {border-bottom:1px #000033 dashed; padding:5px; font:arial, sans-serif; height:20px;}
+
+th {padding:10px; color:#fff; text-shadow:1px 1px 1px #568F23; border:1px solid #93CE37; border-bottom:2px solid #9ED929; background-color:#9DD929;
+background:-webkit-gradient(
+linear,
+left bottom,
+left top,
+color-stop(0.02, rgb(123,192,67)),
+color-stop(0.51, rgb(139,198,66)),
+color-stop(0.87, rgb(158,217,41))
+);
+background: -moz-linear-gradient(
+center bottom,
+rgb(123,192,67) 2%,
+rgb(139,198,66) 51%,
+rgb(158,217,41) 87%
+); 
+
+
+-webkit-border-top-left-radius:5px;
+-webkit-border-top-right-radius:5px;
+-moz-border-radius:5px 5px 0px 0px;
+border-top-left-radius:5px;
+border-top-right-radius:5px;}
+
+
