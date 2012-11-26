@@ -31,8 +31,10 @@ header h2 { 	margin: 0;
             font-style: italic;
             text-align: left; 
             color: #000000; }
-#gsearch{margin-left:75%;
+#gsearch{margin-left:75%; margin-bottom:0;
 		}
+#gsearch input{display:inline;
+			}		
 		
 nav {
      clear:both;
@@ -104,7 +106,7 @@ article .small{font-size: 80%;
 			list-style-type:none;
 			display: block;
 			float: left;	
-			padding:20;
+			padding:20px;
 			}
 .gallery  li {	  padding:5px;
 
@@ -133,7 +135,7 @@ article .small{font-size: 80%;
 			list-style-type:none;
 			display: block;
 			  float: left;
-			padding:20;			  
+			padding:20px;			  
 			}
 .gallery2  li {  padding:5px;
 			  }
@@ -256,4 +258,6 @@ rgb(158,217,41) 87%
 border-top-left-radius:5px;
 border-top-right-radius:5px;}
 
-
+label{float:left; display:block; text-align:right; width:120px; padding-right:5px;}
+input,textarea{display:block; margin-bottom:20px;}
+#formResponse{text-align:left;}
