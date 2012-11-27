@@ -31,7 +31,6 @@ header h2 { 	margin: 0;
             font-style: italic;
             text-align: left; 
             color: #000000; }		
-		
 nav {
      clear:both;
      float:left;
@@ -39,21 +38,41 @@ nav {
 	 letter-spacing:0.1em;
 	 font-weight: bold;
 	}
-nav ul { list-style-type: none; 
-       margin: 0;
-	   padding: 0;
-
-}	
-nav a { text-decoration: none; 
-       display: block;
-	   padding: 1.250px;
-       background-color: #075637;				
-	   border-bottom: 0.05em solid #052a19;
+#navbar ul { 	margin: 0;
+			padding: 0;
+			list-style: none;
+			text-align:center;
+			width:12.5em;
+			border-bottom: 1px solid #000;
 }
-nav a:link { color: #869dc7; }
-nav a:visited { color: #0b3726; }
-nav a:hover { background-color: #0b3726;
-              color: #660033; }	
+
+#navbar ul li { position: relative;
+ }
+
+#navbar li ul {
+position: absolute;
+left:12.43em;
+top: 0;
+display: none;
+}
+
+#navbar ul li a {
+	display: block;
+	text-decoration: none;
+	color:#869dc7;
+	background: #075637;
+	padding: 5px;
+	border: 1px solid #000;
+	border-bottom: 0;
+	}
+
+#navbar ul li a:hover {
+background-color: #0b3726;
+color: #660033;
+}
+#navbar li:hover ul { display: block; 
+}
+
 dd { margin: 0; padding: 0 0 1.0em 0; }
 dt { font-weight:bold; color: #000033;}
 
