@@ -18,8 +18,8 @@
   	</head>
 	<body>
 	<div class="wrapper">
-		<div class="logo"><a href="index.html" class="logo"></a>
-		</div>
+	<div class="logo"><a href="index.html"><img src="cod4-multiplayer.jpeg" class="logo" alt="Logo"></a>
+	</div>
 			<header>
 			<hgroup>
 			<h1>EquiTech Studios</h1>

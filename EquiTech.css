@@ -12,9 +12,6 @@ h2{color:#3d402f
 .logo { 	float:left;
 		width:12.500em;
 		height:12.500em;
-		background-image: url(cod4-multiplayer.jpeg); 
-		background-repeat: no-repeat;
-		background-size:12.500em 12.500em;
 		margin:0 auto;
 	}	
 
@@ -81,6 +78,11 @@ dt { font-weight:bold; color: #000033;}
              float: right; }
 #floatleft{ margin: 5px;
              float: left; }	
+#playImage { 
+			height:310px;
+			width:315px;
+			 margin: 10px;
+             float: right; }			 
 .clear{clear: both;}			 
 aside { float: right; 
       background-color: #eaeaea;
