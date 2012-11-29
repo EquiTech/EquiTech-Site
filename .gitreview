@@ -1,0 +1,7 @@
+[gerrit]
+host=review.example.com
+port=29418
+project=equitech/equitech.git
+defaultbranch=master
+defaultremote=review
+defaultrebase=0

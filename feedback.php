@@ -6,15 +6,26 @@
 	<meta name="keywords" content="EquiTech Studios, feedback complete, will contact soon" />
 	<meta name="author" content="Group 2" />
 	<meta charset="utf-8">		
-	<link rel="stylesheet" href="EquiTech.css" type="text/css" />
-	<link href="EquiTechMobile.css" rel="stylesheet" media="only screen and (max-device-width: 480px)">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">		
+	<link href="css/EquiTech.css" rel="stylesheet" type="text/css" />
+	<link href="css/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css" />
+	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 	<!-- protect other browsers from IE's quirks -->
 	<!--[if IE]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
 	</script>
 	<link rel="stylesheet" type="text/css" href="ie.css" />
 	<![endif]-->	
+	
+	<script>
+    $(function() {
+        $( "input[type=submit],button" )
+            .button()
+            .click(function( event ) {
+                event.preventDefault();
+            });
+    });
+</script>
   	</head>
 	<body>
 	<div class="wrapper">
@@ -28,7 +39,7 @@
 					<form id="gsearch" action="http://studentweb.maconstate.edu/john.wright2/Group_Project2_final/search.html">
 					  <input value="015502771783107399443:ycdgt0vs6mc" name="cx" type="hidden"/>
 					  <input name="q" type="search" placeholder="Search the site" />
-					  <input value="Go" name="sa" type="submit"/>
+					  <input value="Go" name="sa" type="submit" class="searchbutton" />
 					</form>	
 			</header>
 		<nav>
