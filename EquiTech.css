@@ -43,6 +43,7 @@ nav {
 nav ul { list-style-type: none; 
        margin: 0;
 	   padding: 0;
+	 }
 #navbar ul { 	margin: 0;
 			padding: 0;
 			list-style: none;
@@ -51,7 +52,7 @@ nav ul { list-style-type: none;
 			border-bottom: 1px solid #0b3726;
 }
 
-}	
+
 #navbar ul li { position: relative;
  }
 
@@ -60,18 +61,14 @@ position: absolute;
 left:12.43em;
 top: 0;
 display: none;
-}
-       display: block;
-	   padding: 1.250px;
-       background-color: #075637;				
-	   border-bottom: 0.05em solid #052a19;
-
+			}
+			
 #navbar ul li a {
 	display: block;
 	text-decoration: none;
 	color:#869dc7;
 	background: #075637;
-	padding: 5px;
+	padding: 1.250px;
 	border: 1px solid #0b3726;
 	}
 	
