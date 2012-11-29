@@ -31,7 +31,8 @@ header h2 { 	margin: 0;
 #gsearch{margin-left:75%; margin-bottom:0;
 		}
 #gsearch input{display:inline;
-			}		
+			}	
+			
 nav {
      clear:both;
      float:left;
@@ -44,7 +45,7 @@ nav {
 			list-style: none;
 			text-align:center;
 			width:12.5em;
-			border-bottom: 1px solid #000;
+			border-bottom: 1px solid #0b3726;
 }
 
 #navbar ul li { position: relative;
@@ -63,19 +64,20 @@ display: none;
 	color:#869dc7;
 	background: #075637;
 	padding: 5px;
-	border: 1px solid #000;
-	border-bottom: 0;
+	border: 1px solid #0b3726;
 	}
-
+	
 #navbar ul li a:hover {
 background-color: #0b3726;
 color: #660033;
-nav a:active {
-background-color:#76EEC6; } 
-
-}
+				  }
+		 
 #navbar li:hover ul { display: block; 
 }
+
+nav a:active, #navbar ul li a:active {
+background-color:#76EEC6;
+			 } 
 
 dd { margin: 0; padding: 0 0 1.0em 0; }
 dt { font-weight:bold; color: #000033;}
