@@ -30,7 +30,8 @@ header h2 { 	margin: 0;
             color: #000000; }
 #gsearch{margin-left:75%; margin-bottom:0;
 		}
-#gsearch input{display:inline;	}	
+#gsearch input{display:inline;
+			}	
 			
 nav {
      clear:both;
