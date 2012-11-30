@@ -2,26 +2,16 @@
 <html lang="en">
 <head>
 <title>EquiTech Studios</title>
-<meta name="description" content="EquiTech Studios Search Results" />
-<meta name="keywords" content="EquiTech Studios, Search, Search Results" />
+<meta name="description" content="EquiTech Studios media" />
+<meta name="keywords" content="EquiTech Studios, media,screenshots,galleray" />
 <meta name="author" content="Group 2" />
 <meta charset="utf-8">
-<link href="css/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="css/gsearch.css" type="text/css" />
-<link rel="stylesheet" href="css/EquiTech.css" type="text/css" />
+<link href="css/EquiTech.css" rel="stylesheet" />
+<link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css"/>
 <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-
-<!-- Google Search -->
-<script>
-  (function() {
-    var cx = '015502771783107399443:ycdgt0vs6mc';
-    var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
+<script src="js/lightbox.js"></script>
 
 <script>
     $(function() {
@@ -31,9 +21,7 @@
                 event.preventDefault();
             });
     });
-    </script>
-
-
+</script>
 </head>
 <body>
 <div class="wrapper">
@@ -49,7 +37,7 @@
 		  <input name="q" type="search" placeholder="Search the site" />
 		  <input value="Go" name="sa" type="submit" class="searchbutton" />
 		</form>
-	</header>
+	</Header>
 
 		<nav id="navbar">
 		 <ul>
@@ -81,9 +69,23 @@
 		  </ul>
 		</nav>
 			<section class="content">
-				<h2>Search Results</h2>
-				<gcse:searchresults-only></gcse:searchresults-only>
-			</section>
+				<bcrumbs>
+				<a href="index.html">Home</a>&raquo;&raquo;<a href="media.html">Media</a>&raquo;&raquo;<a href="mediaunknown.html">Project Unknown</a>
+				</bcrumbs>
+				<h2>Project Unknown</h2>
+				<article>
+				<p>This will be the home of "Project Unknown" media and video's. Keep checking back for updates and spoilers leading up to the release!</p>
+					<header><h1>Unknown</h1></header>
+					<h2 class="small">Screen Shots</h2>
+
+					<p>Nothing to see here....</p>
+						<p> Coming soon!... </p>
+
+				<h2 class="small">Video</h2>
+				<p>Nothing to see here....</p>
+						<p> Coming soon!... </p>
+				</article>
+				</section>
 
 		<footer>
 				<ul>
@@ -128,8 +130,6 @@
 		<!-- div for siteim chat image -->
 		<div id="SITEHELP_CONTAINER_175" class="SITEHELP_CONTAINER_175"></div>
 	</div>
-
-
 	<!-- JavaScript for siteim chat -->
 	<script type="text/javascript"> document.write('<scri' + 'pt type="text/javas' + 'cript" language="javas' + 'cript" src="' + top.location.protocol + '//c.sitehelp.im/code.cgi?c=175' + (top.location.protocol=='http:' ? '' : '&ssl=1') + '&rnd=' + Math.random() + '"></sc' + 'ript>'); </script>
 	<!-- Google Analytics -->
@@ -145,4 +145,7 @@
 	  })();
 	</script>
 </body>
+
+
+
 </html>
