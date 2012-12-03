@@ -12,13 +12,13 @@
 <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 <script src="js/lightbox.js"></script>
-
+<script src="js/FeedBack.js"></script>
+<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
 <script>
     $(function() {
-        $( "input[type=submit],button" )
+        $( "input[type=submit],button,input[type=reset],input[type=button]" )
             .button()
             .click(function( event ) {
-                event.preventDefault();
             });
     });
 </script>
@@ -68,6 +68,49 @@
 			</li>
 		  </ul>
 		</nav>
+				<div id="feedBackContainer">
+					<button id="feedBackButton" class="feedBackButtonRight" onclick="showRecaptcha();">FeedBack</button>
+					<div id="feedBackFormContainer"  class="floatRight">
+						<div id="feedBackDialogForm" title="FeedBack">
+
+							<form method="POST" action="feedback.php">
+								<fieldset class="ui-dialog-content ui-widget-content ui-corner-all">
+								  <legend class="ui-widget-header ui-corner-top"> Please Email Us! </legend>
+								  <div id="feedBackTextFName" class="floatLeft">
+									  <label for="myFName">First Name:</label>
+									  <input type="text" name="myFName" id="myFName" required="required" class="ui-state-default ui-corner-all">
+								  </div>
+								  <div id="feedBackTextLName" class="floatRight">
+									  <label for="myLName">Last Name:</label>
+									  <input type="text" name="myLName" id="myLName" required="required" class="ui-state-default ui-corner-all">
+								  </div>
+								  <div id="feedBackTextEmail" class="clear floatLeft">
+									  <label for="myEmail">E-mail:</label>
+									  <input type="email" name="myEmail" id="myEmail" required="required" class="ui-state-default ui-corner-all">
+								  </div>
+								  <div id="feedBackTextPhone" class="floatRight">
+									  <label for="myPhone">Phone:</label>
+									  <input type="tel" name="myPhone" id="myPhone" class="ui-state-default ui-corner-all">		  
+								  </div>
+								  <div id="feedBackTextComment" class="clear">
+									  <label for="myComments">Comments:</label>
+									  <textarea name="myComments" id="myComments" rows="2" cols="40" class="ui-state-default ui-corner-all"></textarea>
+								  </div>
+								  <div id="human">
+									  <!--
+									  <label for="human">*What is 2+2? (Anti-spam)</label>
+									  <input id="human" type="text" name="human" placeholder="Type Here" required="required">					  
+									  -->
+								  </div>
+									  <div id="feedBackSubmitButton">
+										  <input id="mySubmit" name="mySubmit" type="submit" value="Submit" class="floatLeft">
+										  <input id="myReset" name="myReset" type="reset" value="Reset" class="floatRight">
+   									  </div>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</div>			
 			<section class="content">
 				<bcrumbs>
 				<a href="index.html">Home</a>&raquo;&raquo;<a href="media.html">Media</a>

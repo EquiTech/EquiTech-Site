@@ -35,8 +35,8 @@ header h2 { 	margin: 0;
 			
 /* Breadcrumbs */		
 bcrumbs 			{color:#0b3726;}	
-bcrumbs a 		{color: ##0b3726;}
-bcrumbs a:link 	 {color: ##0b3726;}
+bcrumbs a 		{color: #0b3726;}
+bcrumbs a:link 	 {color: #0b3726;}
 bcrumbs a:visited {color: #0b3726;}
 bcrumbs a:hover 	 {background-color: #81a599; color: #660033; }	
 				 
@@ -237,6 +237,72 @@ background: -moz-linear-gradient(center bottom,
 border-top-left-radius:5px;
 border-top-right-radius:5px;}
 
-label{float:left; display:block; text-align:right; width:120px; padding-right:5px;}
+label{display:block; text-align:right; width:120px; padding-right:5px;}
 input,textarea{display:block; margin-bottom:20px;}
 #formResponse{text-align:left;}
+
+/*Feed Back Collaspable Dialog Form*/
+#feedBackContainer{ position:fixed;
+					margin-top:0%;
+					right:0px;
+					height:500px;
+					z-index:99;
+					}
+#feedBackButton{ 	margin-left:0px;
+					text-align: center;
+					margin-top:35%;
+					margin-right:-40px;
+					}
+.feedBackButtonRight {	/* Safari */
+						-webkit-transform: rotate(-90deg);
+
+						/* Firefox */
+						-moz-transform: rotate(-90deg);
+
+						/* IE */
+						-ms-transform: rotate(-90deg);
+
+						/* Opera */
+						-o-transform: rotate(-90deg);
+
+						/*W3C*/
+						transform: rotate(-90deg);
+					 }
+#feedBackDialogForm{ height:500px;
+					 left:0;
+					 bottom:0;
+					 }
+#feedBackDialogForm h3{ height:30px;
+					   margin:5px;
+					   }			
+#feedBackFormContainer{ display:none;
+						}		
+
+#feedBackDialogForm input, #feedBackDialogForm label { display:block;
+												   width:150px;
+												   text-align:left;
+												   margin-left:5px;
+												   margin-right:5px;
+												   margin-bottom:3px;
+												   }
+#feedBackDialogForm textarea { display:block;
+							width:300px;
+							height:50px;
+							margin-right:5px;
+							margin-left:5px;
+							}	
+
+#feedBackDialogForm button { margin: 7px 0 7px 7px;}
+
+#feedBackTextFName{}
+#feedBackTextLName{}
+#feedBackTextEmail{}
+#feedBackTextPhone{}
+#feedBackSubmitButton{ margin:5px;}
+.floatLeft{float:left;}
+.floatRight{float:right;}
+.textCenter{text-align:center;}
+#feedBackResponse {
+	color: #ff6600;
+	margin:5px;
+}
