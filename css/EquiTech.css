@@ -250,8 +250,8 @@ input,textarea{display:block; margin-bottom:20px;}
 					}
 #feedBackButton{ 	margin-left:0px;
 					text-align: center;
-					margin-top:35%;
-					margin-right:-40px;
+					margin-top:0%;
+					margin-right:-42px;
 					}
 .feedBackButtonRight {	/* Safari */
 						-webkit-transform: rotate(-90deg);
@@ -270,12 +270,13 @@ input,textarea{display:block; margin-bottom:20px;}
 					 }
 #feedBackDialogForm{ height:500px;
 					 left:0;
-					 bottom:0;
+					 bottom:0;				 
 					 }
 #feedBackDialogForm h3{ height:30px;
 					   margin:5px;
 					   }			
 #feedBackFormContainer{ display:none;
+					    margin-top:-35%;
 						}		
 
 #feedBackDialogForm input, #feedBackDialogForm label { display:block;
