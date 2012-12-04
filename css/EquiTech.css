@@ -14,14 +14,15 @@ h2 a:hover {   color: #660033; }
 		 background-color: #075637;}
 		 
 .logo { 	float:left;
-		width:12.500em;
-		height:12.500em;
-		margin:0 auto;}	
-header {
-		font-size: 150%; 
-		padding: 10px 10px 10px 155px;
-		background-color: #0b3726;
-		margin:0 auto;}
+		width:12.5em;
+		height:12.5em;
+		margin:0 auto;
+		}	
+header {	background-color: #0b3726;
+		margin:0 auto;		
+	  }
+.headerHeight{Height:12.5em;}	  
+hgroup{font-size: 150%;}
 		
 header h1 {   margin-bottom: 0;} 
 header h2 { 	margin: 0; 

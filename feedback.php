@@ -10,6 +10,8 @@
 	<link href="css/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css" />
 	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
 	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	<script src="js/FeedBack.js"></script>
+	<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>	
 	<!-- protect other browsers from IE's quirks -->
 	<!--[if IE]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
@@ -17,12 +19,11 @@
 	<link rel="stylesheet" type="text/css" href="ie.css" />
 	<![endif]-->
 
-	<script>
+<script>
     $(function() {
-        $( "input[type=submit],button" )
+        $( "input[type=submit],button,input[type=reset],input[type=button]" )
             .button()
             .click(function( event ) {
-                event.preventDefault();
             });
     });
 </script>
