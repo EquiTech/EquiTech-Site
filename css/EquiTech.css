@@ -1,5 +1,7 @@
 body {font-family:Verdana, Arial, sans-serif;
-      background-color: #3d402f;}
+      background-color: #3d402f;
+	  background: url("http://old.jqueryui.com/themeroller/images/?new=3d402f&w=12&h=10&f=png&q=100&fltr%5B%5D=over%7Ctextures%2F20_3D_boxes.png%7C0%7C0%7C75") repeat scroll 50% 50% #3D402F;
+	  }
    
 
 	  
@@ -11,7 +13,11 @@ h2 a:hover {   color: #660033; }
 .wrapper {margin:0 auto;
 		 width: 80%;
 		 min-width: 50.00em;	
-		 background-color: #075637;}
+		 background-color: #075637;
+		 -moz-box-shadow: 0 0 5px 5px #000;
+		 -webkit-box-shadow: 0 0 5px 5px #000;
+		 box-shadow: 0 0 5px 5px #000;
+		 }
 		 
 .logo { 	float:left;
 		width:12.5em;
@@ -22,7 +28,7 @@ header {	background-color: #0b3726;
 		margin:0 auto;		
 	  }
 .headerHeight{Height:12.5em;}	  
-hgroup{padding-top:5px; padding-left:65px;margin-left:15%;}
+hgroup{padding-top:5px; padding-left:65px;margin-left:12%;}
 		
 header h1 {   margin-bottom: 0;} 
 header h2 { 	margin: 0; 
@@ -275,14 +281,14 @@ input,textarea{display:block; margin-bottom:20px;}
 					 }
 #feedBackDialogForm{ height:500px;
 					 left:0;
-					 bottom:0;				 
+					 bottom:0; 
 					 }
 #feedBackDialogForm h3{ height:30px;
 					   margin:5px;
 					   }			
 #feedBackFormContainer{ display:none;
 					    margin-top:-35%;
-						}		
+						}	
 
 #feedBackDialogForm input, #feedBackDialogForm label { display:block;
 												   width:150px;
