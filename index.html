@@ -11,21 +11,35 @@
 <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 <script src="js/FeedBack.js"></script>
+<script src="http://malsup.github.com/jquery.form.js"></script> 
 <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+
 <script>
     $(function() {
         $( "input[type=submit],button,input[type=reset],input[type=button]" )
             .button()
             .click(function( event ) {
-            });
+            });		
+		
     });
+		  function showRecaptcha() {
+            Recaptcha.create("6LdmvNkSAAAAAFDwVdqw7oG7wC4JPbs6etqm6qVZ ", 'human', { 
+			
+                tabindex: 1,
+                theme: "blackglass",
+                callback: Recaptcha.focus_response_field
+            });
+          }
+		  
 </script>
+		
 </head>
 <body>
 <div class="wrapper">
-	<div class="logo"><a href="index.html"><img src="cod4-multiplayer.jpeg" class="logo" alt="Logo"></a>
-	</div>
-	<header>
+
+	<header class="headerHeight">
+		<div class="logo"><a href="index.html"><img src="cod4-multiplayer.png" class="logo" alt="Logo"></a>
+		</div>
 		<hgroup>
 		<h1>EquiTech Studios</h1>
 			<h2>Gaming is our passion</h2>
@@ -70,7 +84,7 @@
 					<div id="feedBackFormContainer"  class="floatRight">
 						<div id="feedBackDialogForm" title="FeedBack">
 
-							<form method="POST" action="feedback.php">
+							<form method="POST" action="send_mail.php">
 								<fieldset class="ui-dialog-content ui-widget-content ui-corner-all">
 								  <legend class="ui-widget-header ui-corner-top"> Please Email Us! </legend>
 								  <div id="feedBackTextFName" class="floatLeft">
@@ -104,7 +118,7 @@
 										  <input id="myReset" name="myReset" type="reset" value="Reset" class="floatRight">
    									  </div>
 								</fieldset>
-							</form>
+							</form>				
 						</div>
 					</div>
 				</div>
@@ -113,7 +127,7 @@
 				<h2>Welcome to EquiTech Studios</h2>
 				<article>
 				<p>Developers of award-winning nothingness. EquiTech Studios is a great bunch of people that love to make awesome games and enjoy their ability to entertain others.</p>
-					<header><h1>Releases</h1></header>
+					<header><h3>Releases</h3></header>
 					<p id="small">Up To Date as of:
 					<time datetime="2012-09-25">September 25, 2012</time>
 					</p>
@@ -127,7 +141,7 @@
 
 					</dl>
 				</article>
-					<img src="file0001556040045.jpg" id="playImage" alt="playstation controller">
+					<img src="file0001556040045.png" id="playImage" alt="playstation controller">
 					<h2>Work Time is Our Play Time</h2>
 					<p>When we are hard at work we enjoy to play a variety of games.</p>
 					<p>In no particular order.</P>
