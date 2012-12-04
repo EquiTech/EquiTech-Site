@@ -1,5 +1,7 @@
 body {font-family:Verdana, Arial, sans-serif;
       background-color: #3d402f;}
+   
+
 	  
 /* Header */
 h2{color:#3d402f}
@@ -28,6 +30,9 @@ header h2 { 	margin: 0;
             font-style: italic;
             text-align: left; 
             color: #000000; }
+            
+img { border: none; }
+
 /* Search */		
 #gsearch{margin-left:75%; margin-bottom:0; }
 #gsearch input{display:inline; }
@@ -84,10 +89,11 @@ dt a:hover {   color: #660033; }
 		 padding: 10px 20px;
 	     overflow: auto;}
 		
-.content a:link { color: #0000ff; }
+.content a:link { color: #1533ad; }
 .content a:visited { color: #0b3726; }
 .content a:hover { background-color: #81a599;
-                  color: #660033;}		  
+                  color: #660033;}
+
 #floatright { margin: 10px;
              float: right; }
 #floatleft{ margin: 5px;
@@ -202,23 +208,21 @@ footer li.nodec {list-style-type: none; padding-bottom: 0.625em;}
 footer a:link { color: #869dc7; }
 footer a:visited { color: #000000; }
 footer a:hover { background-color: #0b3726; color: #660033; }	
-#footerCenter{  clear: both;
-				color:#636658;
-				text-align:center;}	
+.footerCenter{ text-align:center; color:#636658;}	
 				
 
 				
 /* Miscellaneous */
 table { margin:auto; border:1px solid #5c743d; width:520px; padding:10px;}
 
-caption { font-size:1em; font-weight:bold; font-family: Verdana, sans-serif; color:#3d402f; }
+caption { font-size:1em; font-weight:bold; font-family: Verdana, Arial, sans-serif; color:#3d402f; }
 
 
 
-tbody { font-family:Arial, sans-serif; font-size:.90em;}
+tbody { font-family:Verdana, Arial, sans-serif; font-size:.90em;}
 
 
-td {border-bottom:1px #000033 dashed; padding:5px; font:arial, sans-serif; height:20px;}
+td {border-bottom:1px #000033 dashed; padding:5px; font:Verdana, Arial, sans-serif; height:20px;}
 
 th {padding:10px; color:#fff; text-shadow:1px 1px 1px #568F23; border:1px solid #0b3726; border-bottom:2px solid #0b3726; background-color:#9DD929;
 background:-webkit-gradient(linear,
@@ -306,3 +310,10 @@ input,textarea{display:block; margin-bottom:20px;}
 	color: #ff6600;
 	margin:5px;
 }
+
+
+
+p { margin-left:1.500em;
+	}
+
+
