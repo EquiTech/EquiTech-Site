@@ -22,7 +22,7 @@ header {	background-color: #0b3726;
 		margin:0 auto;		
 	  }
 .headerHeight{Height:12.5em;}	  
-hgroup{font-size: 150%;}
+hgroup{font-size: 150%; padding-top:5px; padding-left:25px;}
 		
 header h1 {   margin-bottom: 0;} 
 header h2 { 	margin: 0; 
