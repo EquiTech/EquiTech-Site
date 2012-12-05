@@ -18,7 +18,17 @@
             .button()
             .click(function( event ) {
             });
+
     });
+		  function showRecaptcha() {
+            Recaptcha.create("6LdmvNkSAAAAAFDwVdqw7oG7wC4JPbs6etqm6qVZ ", 'human', {
+
+                tabindex: 1,
+                theme: "blackglass",
+                callback: Recaptcha.focus_response_field
+            });
+          }
+
 </script>
 </head>
 <body>
@@ -27,12 +37,12 @@
 		<div class="logo"><a href="index.html"><img src="cod4-multiplayer.png" class="logo" alt="Logo"></a>
 		</div>
 		<hgroup>
-		<h1><img src="Equitechlogo.png" class="text" alt="Text logo"></a></h1>
+		<h1><img src="Equitechlogo.png" class="text" alt="Text logo"></h1>
 			<h2><img src="Gaminglogo.png" class="text" alt="Text logo gaming"></h2>
 		</hgroup>
 		<form id="gsearch" action="http://studentweb.maconstate.edu/john.wright2/Group_Project2_final/search.html">
 		  <input value="015502771783107399443:ycdgt0vs6mc" name="cx" type="hidden"/>
-		  <input name="q" type="search" placeholder="Search the site" />
+		  <input name="q" type="search" placeholder="Search the site" accesskey="s" class="textInput"/>
 		  <input value="Go" name="sa" type="submit" class="searchbutton" />
 		</form>
 	</Header>
@@ -43,14 +53,14 @@
 			  <ul>
 				  <li><a href="nothingness.html">Nothingness</a></li>
 				  <li><a href="nothingness2.html">Nothingness 2</a></li>
-				  <li><a href="inproduction.html">Project"Unknown"</a></li>
+				  <li><a href="inproduction.html">Project "Unknown"</a></li>
 			  </ul>
 			</li>
 			<li><a href="media.html">Media</a>
 			 <ul>
 			 	  <li><a href="medianothingness.html">Nothingness</a></li>
 			 	  <li><a href="medianothingness2.html">Nothingness 2</a></li>
-			 	  <li><a href="mediaunknown.html">Project Uknown</a></li>
+			 	  <li><a href="mediaunknown.html">Project "Unknown"</a></li>
 			 </ul>
 			</li>
 			<li><a href="donate.html">Donate</a>
@@ -65,7 +75,7 @@
 		  </ul>
 		</nav>
 				<div id="feedBackContainer">
-					<button id="feedBackButton" class="feedBackButtonRight" onclick="showRecaptcha();">FeedBack</button>
+					<button id="feedBackButton" class="feedBackButtonRight" onclick="showRecaptcha();" accesskey="f">FeedBack</button>
 					<div id="feedBackFormContainer"  class="floatRight">
 						<div id="feedBackDialogForm" title="FeedBack">
 
@@ -74,23 +84,23 @@
 								  <legend class="ui-widget-header ui-corner-top"> Please Email Us! </legend>
 								  <div id="feedBackTextFName" class="floatLeft">
 									  <label for="myFName">First Name:</label>
-									  <input type="text" name="myFName" id="myFName" required="required" class="ui-state-default ui-corner-all">
+									  <input type="text" name="myFName" id="myFName" required="required" class="ui-state-default ui-corner-all textInput">
 								  </div>
 								  <div id="feedBackTextLName" class="floatRight">
 									  <label for="myLName">Last Name:</label>
-									  <input type="text" name="myLName" id="myLName" required="required" class="ui-state-default ui-corner-all">
+									  <input type="text" name="myLName" id="myLName" required="required" class="ui-state-default ui-corner-all textInput">
 								  </div>
 								  <div id="feedBackTextEmail" class="clear floatLeft">
 									  <label for="myEmail">E-mail:</label>
-									  <input type="email" name="myEmail" id="myEmail" required="required" class="ui-state-default ui-corner-all">
+									  <input type="email" name="myEmail" id="myEmail" required="required" class="ui-state-default ui-corner-all textInput">
 								  </div>
 								  <div id="feedBackTextPhone" class="floatRight">
 									  <label for="myPhone">Phone:</label>
-									  <input type="tel" name="myPhone" id="myPhone" class="ui-state-default ui-corner-all">
+									  <input type="tel" name="myPhone" id="myPhone" class="ui-state-default ui-corner-all textInput">
 								  </div>
 								  <div id="feedBackTextComment" class="clear">
 									  <label for="myComments">Comments:</label>
-									  <textarea name="myComments" id="myComments" rows="2" cols="40" class="ui-state-default ui-corner-all"></textarea>
+									  <textarea name="myComments" id="myComments" rows="2" cols="40" class="ui-state-default ui-corner-all textInput"></textarea>
 								  </div>
 								  <div id="human">
 									  <!--
@@ -108,18 +118,18 @@
 					</div>
 				</div>
 			<section class="content">
-				<bcrumbs><a href="index.html">Home</a>&raquo;&raquo;<a href="games.html">Games</a></bcrumbs>
+				<div id="bcrumbs"><a href="index.html">Home</a>&raquo;&raquo;<a href="games.html">Games</a></div>
 				<h2>Welcome to EquiTech Studios:</h2>
 				<article>
 				<p>Developers of award-winning nothingness. EquiTech Studios is a great bunch of people that love to make awesome games and enjoy their ability to entertain others.</p>
 					<header><h1>Releases from EquiTech Studios</h1></header>
 					<dl>
 						<dt><a href="nothingness.html">Nothingness</a></dt>
-						  <dd>The premier title from EquiTech Studios that started it all. <i>Nothingness</i><sub>&reg;</sub> has been the subject of much praise and great reviews. It provides non-stop fun and hours of entertainment. Currently available at retailers nation wide.</dd>
+						  <dd>The premier title from EquiTech Studios that started it all. <span class="italic">Nothingness</span><span class="sub">&reg;</span> has been the subject of much praise and great reviews. It provides non-stop fun and hours of entertainment. Currently available at retailers nation wide.</dd>
 						<dt><a href="nothingness2.html">Nothingness 2</a></dt>
 						  <dd>The long awaited sequel that expands greatly on it's predecessor. Continue to check back for updates and the latest release date information!</dd>
 						<dt><a href="inproduction.html">Project "Unknown"</a></dt>
-						  <dd>After finally being given the greenlight from the producers due to the success of their first major launch <i>Nothingness</i><sub>&reg;</sub>, EquiTech Studios is hard at work on a new project based on their entirely new game engine! This project is still in its infancy and we are still in the design and game engine creation phase at this time.</dd>
+						  <dd>After finally being given the greenlight from the producers due to the success of their first major launch <span class="italic">Nothingness</span><span class="sub">&reg;</span>, EquiTech Studios is hard at work on a new project based on their entirely new game engine! This project is still in its infancy and we are still in the design and game engine creation phase at this time.</dd>
 					</dl>
 				</article>
 				</section>
@@ -152,13 +162,13 @@
 				  <li class="nodec">Game Links</li>
 				  <li><a href="nothingness.html">Nothingness</a></li>
 				  <li><a href="nothingness2.html">Nothingness 2</a></li>
-				  <li><a href="inproduction.html">Project"Unknown"</a></li>
+				  <li><a href="inproduction.html">Project "Unknown"</a></li>
 				</ul>
 				<ul>
 				  <li class="nodec">Media Links</li>
 				  <li><a href="medianothingness.html">Nothingness</a></li>
 				  <li><a href="medianothingness2.html">Nothingness 2</a></li>
-			 	  <li><a href="mediaunknown.html">Project Uknown</a></li>
+			 	  <li><a href="mediaunknown.html">Project "Unknown"</a></li>
 			 	</ul>
 
 			<p class="footerCenter clear">All rights are reserved by their respected enities. Copyright &copy; 2012</p>

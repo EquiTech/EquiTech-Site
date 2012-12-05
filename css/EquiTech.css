@@ -1,5 +1,7 @@
 body {font-family:Verdana, Arial, sans-serif;
-      background-color: #3d402f;}
+      background-color: #3d402f;
+	  background: url("http://old.jqueryui.com/themeroller/images/?new=3d402f&w=12&h=10&f=png&q=100&fltr%5B%5D=over%7Ctextures%2F20_3D_boxes.png%7C0%7C0%7C75") repeat scroll 50% 50% #3D402F;
+	  }
    
 
 	  
@@ -11,7 +13,11 @@ h2 a:hover {   color: #660033; }
 .wrapper {margin:0 auto;
 		 width: 80%;
 		 min-width: 50.00em;	
-		 background-color: #075637;}
+		 background-color: #075637;
+		 -moz-box-shadow: 0 0 5px 5px #000;
+		 -webkit-box-shadow: 0 0 5px 5px #000;
+		 box-shadow: 0 0 5px 5px #000;
+		 }
 		 
 .logo { 	float:left;
 		width:12.5em;
@@ -40,11 +46,11 @@ img { border: none; }
 .searchbutton{font-size: 10px !important; line-height: 1.6em; }
 			
 /* Breadcrumbs */		
-bcrumbs 			{color:#0b3726;}	
-bcrumbs a 		{color: #0b3726;}
-bcrumbs a:link 	 {color: #0b3726;}
-bcrumbs a:visited {color: #0b3726;}
-bcrumbs a:hover 	 {background-color: #81a599; color: #660033; }	
+#bcrumbs 			{color:#0b3726;}	
+#bcrumbs a 		{color: #0b3726;}
+#bcrumbs a:link 	 {color: #0b3726;}
+#bcrumbs a:visited {color: #0b3726;}
+#bcrumbs a:hover 	 {background-color: #81a599; color: #660033; }	
 				 
 /* Navigation */				 
 nav {clear:both;
@@ -245,7 +251,8 @@ border-top-right-radius:5px;}
 label{display:block; text-align:right; width:120px; padding-right:5px;}
 input,textarea{display:block; margin-bottom:20px;}
 #formResponse{text-align:left;}
-
+.italic{font-style:italic;}
+.sub{vertical-align:sub;}
 /*Feed Back Collaspable Dialog Form*/
 #feedBackContainer{ position:fixed;
 					margin-top:0%;
@@ -275,14 +282,14 @@ input,textarea{display:block; margin-bottom:20px;}
 					 }
 #feedBackDialogForm{ height:500px;
 					 left:0;
-					 bottom:0;				 
+					 bottom:0; 
 					 }
 #feedBackDialogForm h3{ height:30px;
 					   margin:5px;
 					   }			
 #feedBackFormContainer{ display:none;
 					    margin-top:-35%;
-						}		
+						}	
 
 #feedBackDialogForm input, #feedBackDialogForm label { display:block;
 												   width:150px;
@@ -318,4 +325,22 @@ input,textarea{display:block; margin-bottom:20px;}
 p { margin-left:1.500em;
 	}
 
-
+.textInput{  color: #777;  
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;  
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;  
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset;   
+    
+  transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;  
+  -webkit-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;  
+  -moz-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;  
+  -o-transition: border 0.15s linear 0s, box-shadow 0.15s linear 0s, color 0.15s linear 0s;
+		  }
+.textInput:focus {   
+  color: #333;  
+  border-color: rgba(41, 92, 161, 0.4);  
+    
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(41, 92, 161, 0.6);  
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(41, 92, 161, 0.6);  
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(41, 92, 161, 0.6);  
+  outline: 0 none;   
+} 
