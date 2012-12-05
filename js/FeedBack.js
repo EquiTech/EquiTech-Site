@@ -12,11 +12,5 @@
 			$("#feedBackButton").button().click(function(){
 				$(this).next().toggle("slow", "linear");
 
-			});
-                
-            function closeForm(){
-                $("#messageSent").show("slow");
-                setTimeout('$("#messageSent").hide();$("#dialog-form").slideDown("slow")', 2000)};	
-          
-		
+			});		
     });

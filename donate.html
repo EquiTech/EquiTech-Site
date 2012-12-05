@@ -18,7 +18,17 @@
             .button()
             .click(function( event ) {
             });
+
     });
+		  function showRecaptcha() {
+            Recaptcha.create("6LdmvNkSAAAAAFDwVdqw7oG7wC4JPbs6etqm6qVZ ", 'human', {
+
+                tabindex: 1,
+                theme: "blackglass",
+                callback: Recaptcha.focus_response_field
+            });
+          }
+
 </script>
 </head>
 <body>
@@ -44,14 +54,14 @@
 			  <ul>
 				  <li><a href="nothingness.html">Nothingness</a></li>
 				  <li><a href="nothingness2.html">Nothingness 2</a></li>
-				  <li><a href="inproduction.html">Project"Unknown"</a></li>
+				  <li><a href="inproduction.html">Project "Unknown"</a></li>
 			  </ul>
 			</li>
 			<li><a href="media.html">Media</a>
 			 <ul>
 			 	  <li><a href="medianothingness.html">Nothingness</a></li>
 			 	  <li><a href="medianothingness2.html">Nothingness 2</a></li>
-			 	  <li><a href="mediaunknown.html">Project Uknown</a></li>
+			 	  <li><a href="mediaunknown.html">Project "Unknown"</a></li>
 			 </ul>
 			</li>
 			<li><a href="donate.html">Donate</a>
@@ -154,13 +164,13 @@
 				  <li class="nodec">Game Links</li>
 				  <li><a href="nothingness.html">Nothingness</a></li>
 				  <li><a href="nothingness2.html">Nothingness 2</a></li>
-				  <li><a href="inproduction.html">Project"Unknown"</a></li>
+				  <li><a href="inproduction.html">Project "Unknown"</a></li>
 				</ul>
 				<ul>
 				  <li class="nodec">Media Links</li>
 				  <li><a href="medianothingness.html">Nothingness</a></li>
 				  <li><a href="medianothingness2.html">Nothingness 2</a></li>
-			 	  <li><a href="mediaunknown.html">Project Uknown</a></li>
+			 	  <li><a href="mediaunknown.html">Project "Unknown"</a></li>
 			 	</ul>
 			<p class="footerCenter clear">All rights are reserved by their respected enities. Copyright &copy; 2012</p>
 			<p class="footerCenter">Page last modified: <script> document.write(document.lastModified);</script></p>
