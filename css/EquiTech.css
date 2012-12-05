@@ -46,11 +46,11 @@ img { border: none; }
 .searchbutton{font-size: 10px !important; line-height: 1.6em; }
 			
 /* Breadcrumbs */		
-bcrumbs 			{color:#0b3726;}	
-bcrumbs a 		{color: #0b3726;}
-bcrumbs a:link 	 {color: #0b3726;}
-bcrumbs a:visited {color: #0b3726;}
-bcrumbs a:hover 	 {background-color: #81a599; color: #660033; }	
+#bcrumbs 			{color:#0b3726;}	
+#bcrumbs a 		{color: #0b3726;}
+#bcrumbs a:link 	 {color: #0b3726;}
+#bcrumbs a:visited {color: #0b3726;}
+#bcrumbs a:hover 	 {background-color: #81a599; color: #660033; }	
 				 
 /* Navigation */				 
 nav {clear:both;
