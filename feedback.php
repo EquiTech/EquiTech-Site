@@ -11,7 +11,7 @@
 	<script src="http://code.jquery.com/jquery-1.8.3.js"></script>
 	<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 	<script src="js/FeedBack.js"></script>
-	<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>	
+	<script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
 	<!-- protect other browsers from IE's quirks -->
 	<!--[if IE]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
@@ -34,8 +34,8 @@
 	</div>
 			<header>
 			<hgroup>
-			<h1>EquiTech Studios</h1>
-				<h2>Gaming is our passion</h2>
+		<h1><img src="Equitechlogo.png" class="text" alt="Text logo"></a></h1>
+			<h2><img src="Gaminglogo.png" class="text" alt="Text logo gaming"></h2>
 			</hgroup>
 					<form id="gsearch" action="http://studentweb.maconstate.edu/john.wright2/Group_Project2_final/search.html">
 					  <input value="015502771783107399443:ycdgt0vs6mc" name="cx" type="hidden"/>
@@ -260,8 +260,8 @@
 			 	  <li><a href="mediaunknown.html">Project Uknown</a></li>
 			 	</ul>
 
-			<p id="footerCenter">All rights are reserved by their respected enities. Copyright &copy; 2012</p>
-			<datemoded><p id="footerCenter">Page last modified: <script> document.write(document.lastModified);</script></p></datemoded>
+			<p class="footerCenter clear">All rights are reserved by their respected enities. Copyright &copy; 2012</p>
+			<p class="footerCenter">Page last modified: <script> document.write(document.lastModified);</script></p>
 		</footer>
 				<!-- div for siteim chat image -->
 				<div id="SITEHELP_CONTAINER_175" class="SITEHELP_CONTAINER_175"></div>
