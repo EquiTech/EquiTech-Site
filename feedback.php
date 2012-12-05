@@ -20,13 +20,13 @@
             .button()
             .click(function( event ) {
             });
-	});	
+	});
 </script>
  <script type="text/javascript">
  var RecaptchaOptions = {
     theme : 'blackglass'
  };
- </script>	
+ </script>
 </head>
 <body>
 <div class="wrapper">
@@ -120,7 +120,7 @@
 					</div>
 				</div>
 			<section class="content">
-				<h2>FeedBack</h2>
+				<h2>Thank you for your controbution.</h2>
 					<div id="formResponse">
 						<?php
 								//Declare and check form vars
@@ -217,7 +217,7 @@
 								{
 								  $from = null;
 								//  echo "no From Email supplied";
-								}	
+								}
 								if (isset($_POST["human"]))
 								{
 								  $human = $_POST["human"];
@@ -242,7 +242,7 @@
 								//  echo "no Submit Button";
 								}
 
-							//recaptcha 
+							//recaptcha
 							  require_once('recaptchalib.php');
 							  $privatekey = "6LdmvNkSAAAAAFgPUooH7thesa3BbvB9SkxQlTVL";
 							  if($recaptcha_response_field != null){
@@ -254,7 +254,7 @@
 															}
 
 
-								
+
 
 								$to = 'equitechstudios@gmail.com';
 								$subject = 'Equitech Studios Web Message';
