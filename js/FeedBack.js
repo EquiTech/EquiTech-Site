@@ -12,5 +12,9 @@
 			$("#feedBackButton").button().click(function(){
 				$(this).next().toggle("slow", "linear");
 
-			});		
+			});	
+			$("#contactLink").click(function(){
+				$("#feedBackButton").next().toggle("slow", "linear");
+
+			});				
     });
