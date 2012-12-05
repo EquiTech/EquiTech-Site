@@ -6,7 +6,7 @@ body {font-family:Verdana, Arial, sans-serif;
 
 	  
 /* Header */
-h2{color:#3d402f}
+h2{color:#3d402f;}
 h2 a:link { 	  color: #3d402f;}
 h2 a:visited { color: #3d402f; }
 h2 a:hover {   color: #660033; }	
@@ -109,7 +109,10 @@ dt a:hover {   color: #660033; }
 			height:221px;
 			width:315px;
 			margin: 10px;
-            float: right; }	
+            float: right;
+            	  -webkit-box-shadow: 5px 5px 5px #828282;
+      -moz-box-shadow: 5px 5px 5px #828282;
+      box-shadow: 5px 5px 5px #828282;}	
 			 
 .clear{clear: both;}
 			 
@@ -252,8 +255,8 @@ background-image: -webkit-radial-gradient(center, circle farthest-side, #FFFFFF 
 /* W3C Markup, IE10 Release Preview */ 
 background-image: radial-gradient(circle farthest-side at center, #FFFFFF -200%, #075626 100%);
  
-/* IE */
-filter: progid:DXImageTransform.Microsoft.gradient(center, circle farthest-side, startColorstr=#FFFFFF -200%, endColorstr=#075626 100%);
+/* IE6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF' -112%, endColorstr='#075626',GradientType=0 ); 
 
 border-top-right-radius:5px;}
 
