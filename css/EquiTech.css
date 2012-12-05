@@ -251,7 +251,8 @@ border-top-right-radius:5px;}
 label{display:block; text-align:right; width:120px; padding-right:5px;}
 input,textarea{display:block; margin-bottom:20px;}
 #formResponse{text-align:left;}
-
+.italic{font-style:italic;}
+.sub{vertical-align:sub;}
 /*Feed Back Collaspable Dialog Form*/
 #feedBackContainer{ position:fixed;
 					margin-top:0%;
