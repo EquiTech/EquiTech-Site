@@ -122,8 +122,8 @@
 			<section class="content">
 				<h2>Thank you for your contribution.</h2>
 					<!--[if lt IE 8]>
-						<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-					<![endif]-->				
+						<p class="chromeframe">The Browser you are using is outdated and may not work well with this site. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+					<![endif]-->			
 					<div id="formResponse">
 						<?php
 								//Declare and check form vars
