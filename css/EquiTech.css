@@ -279,7 +279,9 @@ input,textarea{display:block; margin-bottom:20px;}
 					margin-top:0%;
 					margin-right:-42px;
 					}
-.feedBackButtonRight {	/* Safari */
+.feedBackButtonRight {	
+
+						/* Safari */
 						-webkit-transform: rotate(-90deg);
 
 						/* Firefox */
@@ -357,4 +359,15 @@ p { margin-left:1.500em;
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(41, 92, 161, 0.6);  
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) inset, 0 0 8px rgba(41, 92, 161, 0.6);  
   outline: 0 none;   
-} 
+}
+ 
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}

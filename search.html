@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 9]><html class="no-js">  <![endif]-->
 <html lang="en">
 <head>
 <title>EquiTech Studios</title>
@@ -9,9 +13,15 @@
 <link href="css/jquery-ui-1.9.2.custom.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="css/gsearch.css" type="text/css" />
 <link rel="stylesheet" href="css/EquiTech.css" type="text/css" />
+<!--[if lt IE 9]>
+<link href="css/ie8.css" rel="stylesheet" />
+<![endif]-->
 <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.min.js"></script>
 <script src="js/FeedBack.js"></script>
+<!--[if lt IE 9]>
+<script src="js/modernizr-2.6.2.min.js"></script>
+<![endif]-->
 <script type="text/javascript" src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
 
 <!-- Google Search -->
@@ -140,8 +150,11 @@
 						</div>
 					</div>
 				</div>
-			<section class="content">
+			<section class="content">		
 				<h2>Search Results</h2>
+					<!--[if lt IE 8]>
+						<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+					<![endif]-->				
 				<gcse:searchresults-only></gcse:searchresults-only>
 			</section>
 
