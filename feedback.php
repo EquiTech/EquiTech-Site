@@ -120,7 +120,7 @@
 					</div>
 				</div>
 			<section class="content">
-				<h2>Thank you for your controbution.</h2>
+				<h2>Thank you for your contribution.</h2>
 					<div id="formResponse">
 						<?php
 								//Declare and check form vars
